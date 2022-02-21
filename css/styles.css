@@ -1,0 +1,70 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #fff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.logo {
+  color: #000;
+}
+.logo-style {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+/* navigation */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* contacts  */
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+
+.section-title {
+  color: var(--title-text-color);
+}
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* competencies  */
+.competencies .title {
+  color: var(--title-text-color);
+}
+/* staffing  */
+.staffing .title {
+  color: var(--title-text-color);
+}
+/* #2F303A color back hero */
+/* 2196F3 color hover head  */
+/* 212121 cjljr text head */
+/* 757575 color  link  */
+/* 2196F3 color hover link */
+/* FFFFFF hero color  */
+/* FFFFFF button color  */
+/* 757575 color text section 2  */
+/* 212121 color header section 2 */
+/* #F5F4FA color section our staff  */
+/* #2F303A color back footer  */
+/* 000000 logo color  */
