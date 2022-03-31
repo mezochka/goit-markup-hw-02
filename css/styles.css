@@ -4,7 +4,7 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --bg-color-filter: #f5f4fa;
-  --bg-color-footer-header: #2F303A;
+  --bg-color-footer-header: #2f303a;
 }
 
 body {
@@ -56,7 +56,6 @@ body {
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
 }
 .link {
   color: var(--primary-text-color);
@@ -112,21 +111,24 @@ body {
 }
 
 /* staffing  */
-.staffing .title, .staff-name {
+.staffing .title {
   color: var(--title-text-color);
 
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
-.staffing .title {
-  font-weight: 500;
+.staff-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
+
 .staff-item {
   width: 270px;
-} 
-
 }
+
 .logo-footer {
   color: var(--primary-white-color);
 }
@@ -136,8 +138,8 @@ body {
 }
 
 .link-color {
-color: rgba(255, 255, 255, 0.6);
-} 
+  color: rgba(255, 255, 255, 0.6);
+}
 
 .accent-bg {
   background-color: var(--bg-color-footer-header);
@@ -145,7 +147,7 @@ color: rgba(255, 255, 255, 0.6);
 
 /* classes for portfolio only*/
 
- /* filter  */
+/* filter  */
 .filter {
   color: var(--title-text-color);
   background-color: var(--bg-color-filter);
@@ -163,32 +165,31 @@ color: rgba(255, 255, 255, 0.6);
   color: var(--primary-white-color);
 }
 
+/* examples  */
 
- /* examples  */
+.example-title {
+  color: var(--title-text-color);
 
- .example-title {
-    color: var(--title-text-color);
-    
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
- }
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
- .example-text {
+.example-text {
   font-size: 16px;
   line-height: 1.9;
- }
+}
 
- .link-examples {
-   color: var(--primary-text-color);
-   text-decoration: none;
- }
+.link-examples {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
 
- .link-examples:hover,
- .link-examples:focus {
-   background-color: var(--accent-color);
- }
+.link-examples:hover,
+.link-examples:focus {
+  background-color: var(--accent-color);
+}
 /* #2F303A color back hero */
 /* 2196F3 color hover head  */
 /* 212121 cjljr text head */
