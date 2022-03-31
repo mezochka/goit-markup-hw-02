@@ -122,6 +122,9 @@ body {
 .staffing .title {
   font-weight: 500;
 }
+.staff-item {
+  width: 270px;
+} 
 
 }
 .logo-footer {
