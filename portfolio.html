@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
@@ -13,7 +13,7 @@
     <!-- head of info -->
     <header>
         <nav>
-            <a href="./index.html" class="logo"><span class="logo-style">Web</span>Studio</a>
+            <a href="./index.html" class="logo">Web<span class="logo-style">Studio</span></a>
     
             <ul class="list site-nav">
                 <li> <a href="./index.html" class="link">Студия</a></li>
@@ -28,37 +28,107 @@
     </header>
 
     <main>
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
-        </ul>
+            <!-- hidden title -->
+            <h1>Примеры наших работ</h1>
+            <!-- end of hidden title  -->
+        <section>
+            <!-- hidden title -->
+            <h2>Фильтр для примеров</h2>
+            <!-- end of hidden title  -->
 
-        <ul>
-            <li><img src="./image/Технокряк.jpg" alt=""></li>
-            <li><img src="./image/Постер New Orlean vs Golden Star.jpg" alt=""></li>
-            <li><img src="./image/Ресторан Seafood.jpg" alt=""></li>
-            <li><img src="./image/Проект Prime.jpg" alt=""></li>
-            <li><img src="./image/Проект Boxes.jpg" alt=""></li>
-            <li><img src="./image/Inspiration has no Borders.jpg" alt=""></li>
-            <li><img src="./image/Издание Limited Edition.jpg" alt=""></li>
-            <li><img src="./image/Проект LAB.jpg" alt=""></li>
-            <li><img src="./image/Growing Business.jpg" alt=""></li>
-        </ul>
+            <!-- filter -->
+            <ul class="list">
+                <li><button type="button" class="filter">Все</button></li>
+                <li><button type="button" class="filter">Веб-сайты</button></li>
+                <li><button type="button" class="filter">Приложения</button></li>
+                <li><button type="button" class="filter">Дизайн</button></li>
+                <li><button type="button" class="filter">Маркетинг</button></li>
+            </ul>
+        </section>
+        <section>
+            <!-- hidden title -->
+            <h2>Страницы примеров</h2>
+            <!-- end of hidden title  -->
+
+            <!-- examples -->
+            <ul class="list examples">
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/technokryak.jpg" alt="Пример работы Технокряк" width="370">
+                        <h3 class="example-title">Технокряк</h3>
+                        <p class="example-text">Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                        <h3 class="example-title">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+                        <p class="example-text">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/seafood.jpg" alt="Пример работы ресторан Seafood" width="370">
+                        <h3 class="example-title">Ресторан <span lang="en">Seafood</span></h3>
+                        <p class="example-text">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/prime.jpg" alt="Проект Prime" width="370">
+                        <h3 class="example-title">Проект <span lang="en">Prime</span></h3>
+                        <p class="example-text">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/boxes.jpg" alt="Проект Boxes" width="370">
+                        <h3 class="example-title">Проект <span lang="en">Boxes</span></h3>
+                        <p class="example-text">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/inspiration-has-no-borders.jpg" alt=" Проект Inspiration has no Borders" width="370">
+                        <h3 lang="en" class="example-title">Inspiration has no Borders</h3>
+                        <p class="example-text">Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/limited-edition.jpg" alt=" Проект Издание Limited Edition" width="370">
+                        <h3 class="example-title">Издание <span lang="en">Limited Edition</span></h3>
+                    <p class="example-text">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/lab.jpg" alt="Проект LAB" width="370">
+                        <h3 class="example-title">Проект <span lang="en">LAB</span></h3>
+                        <p class="example-text">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="link-examples">
+                        <img src="./image/growing-business.jpg" alt=" Проект Growing Business" width="370">
+                        <h3 lang="en" class="example-title">Growing Business</h3>
+                        <p class="example-text">Приложение</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
     </main>
     
     
-    <footer>
+    <footer class="accent-bg">
         <a href="./index.html" class="logo">Web<span class="logo-style logo-footer">Studio</span></a>
         <address>
             <ul class="list contacts">
                 <li>г. Киев, пр-т Леси Украинки, 26</li>
-                <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                <li><a href="mailto:info@devstudio.com" class="link link-color">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link link-color">+38 096 111 11 11</a></li>
             </ul>
-        </address> 
+        </address>
     </footer>
 </body>
 </html>
