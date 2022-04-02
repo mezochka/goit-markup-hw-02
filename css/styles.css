@@ -5,15 +5,14 @@
   --primary-white-color: #ffffff;
   --bg-color-filter: #f5f4fa;
   --bg-color-footer-header: #2f303a;
+  --secondary-logo-color: #000000;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
   font-size: 14px;
-  line-height: 1.7;
 }
 .logo {
   color: var(--accent-color);
@@ -22,13 +21,18 @@ body {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 .logo:hover .logo-style,
-.logo:focus .logo-style {
+.logo:focus .logo-style,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 .logo-style {
-  color: #000;
+  color: var(--secondary-logo-color);
 }
 
 .list {
@@ -41,10 +45,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -53,7 +54,7 @@ body {
 .contacts {
   color: var(--primary-white-color);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -62,10 +63,6 @@ body {
   text-decoration: none;
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: var(--accent-color);
-}
 /* hero */
 
 .section-title {
@@ -91,6 +88,7 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -99,18 +97,26 @@ body {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+  display: flex;
+  border: none;
+  border-radius: 4px;
 }
 
 /* competencies  */
+
 .competencies .title {
   color: var(--title-text-color);
 
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
+ 
 }
 
 /* staffing  */
+.bgcolor-staff {
+  background-color: var(--bg-color-filter);
+}
 .staffing .title {
   color: var(--title-text-color);
 
@@ -127,6 +133,7 @@ body {
 
 .staff-item {
   width: 270px;
+  background-color: var(--primary-white-color);
 }
 
 .logo-footer {
@@ -137,10 +144,14 @@ body {
   color: var(--primary-white-color);
 }
 
-.link-color {
+.link-design,
+.adress {
+  font-weight: 400;
+  line-height: 1.7;
+}
+.link-design {
   color: rgba(255, 255, 255, 0.6);
 }
-
 .accent-bg {
   background-color: var(--bg-color-footer-header);
 }
@@ -152,15 +163,20 @@ body {
   color: var(--title-text-color);
   background-color: var(--bg-color-filter);
 
+ font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
 
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
+
 .filter:hover,
-.filter:focus {
+.filter:focus,
+.main-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
